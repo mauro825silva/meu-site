@@ -1,0 +1,47 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    color: #00ffcc; /* Cor do título */
+    margin-top: 20px;
+}
+
+/* Estilo para os links */
+a {
+    color: #ffcc00; /* Links dourados */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #008f99;
+}
+
+/* Estilo para o container principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
